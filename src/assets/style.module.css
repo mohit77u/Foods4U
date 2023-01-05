@@ -1,0 +1,13 @@
+:root {
+    --primary-color-green:#8BC43F;
+    --secondary-color-green:#1c763b;
+    --main-color-orange:#f6931e;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color-green);
+}
