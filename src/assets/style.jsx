@@ -107,6 +107,19 @@ export const styles = StyleSheet.create({
         fontSize: 14,
         marginTop: 4,
     },
+    buttonTypeValue: {
+        paddingHorizontal: 6,
+        paddingVertical: 6,
+        borderRadius: 50,
+        color: primaryColorOrange,
+        borderColor: primaryColorOrange,
+        borderWidth: 1,
+        fontSize: 12.5, 
+        marginVertical: 5,
+        width: 110,
+        textAlign: 'center',
+        fontWeight: 'bold',
+    },
     textInput: {
         marginTop: 5,
         marginBottom: 10,
@@ -125,15 +138,13 @@ export const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        marginTop: 22
-      },
-      modalView: {
+        backgroundColor: 'rgba(0,0,0,0.6)'
+    },
+    modalView: {
         margin: 20,
         width: 250,
         backgroundColor: "white",
-        borderRadius: 20,
-        padding: 35,
-        alignItems: "center",
+        borderRadius: 10,
         shadowColor: "#000",
         shadowOffset: {
           width: 0,
@@ -142,25 +153,13 @@ export const styles = StyleSheet.create({
         shadowOpacity: 0.25,
         shadowRadius: 4,
         elevation: 5
-      },
-      button: {
-        borderRadius: 20,
-        padding: 10,
-        elevation: 2
-      },
-      buttonOpen: {
-        backgroundColor: "#F194FF",
-      },
-      buttonClose: {
-        backgroundColor: "#2196F3",
-      },
-      textStyle: {
-        color: "white",
-        fontWeight: "bold",
-        // textAlign: "center"
-      },
-      modalText: {
-        marginBottom: 15,
-        // textAlign: "center"
-      }
+    },
+    calendar: {
+        backgroundColor: '#fff',
+        textHeaderColor: primaryColorGreen,
+        textDefaultColor: '#aaa',
+        selectedTextColor: '#fff',
+        mainColor: primaryColorGreen,
+        textSecondaryColor: '#fff',
+    }
 });

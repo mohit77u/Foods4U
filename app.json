@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logo-bg.jpg",
+        "foregroundImage": "./assets/logo-bg.png",
         "backgroundColor": "#fff"
-      }
+      },
+      "package": "com.ghostms7u.Foods4U"
     },
     "web": {
       "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "81fd67e6-9568-497b-ad77-59fed190b3e3"
+      }
     }
   }
 }
